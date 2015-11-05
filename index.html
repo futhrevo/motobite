@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Motobite</title>
   <meta name="Empowered minds" content="">
   <meta name="Futhrevo" content="">
+  <meta name="description" content="Community carpooling app" />
+  <meta name="keywords" content="carpooling, realtime, ridesharing" />
+  <meta name="author" content="hedera.in" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -15,36 +19,288 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <!--<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">-->
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-responsive.css">
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.ico">
+  <link rel="icon" type="image/png" href="img/favicon.ico">
 
 </head>
-<body>
 
+<body>
+  <div class="preloader" id="preloader">
+    <div class="item">
+      <img src="img/loading.gif">
+    </div>
+  </div>
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h1>MotoBite</h1>
-        <p>Coming soon on Android and iOS</p>
-      </div>
-       <div class="one-half column phones">
-          <img class="phone" src="images/Android.png">
-          
+    <!-- section start-page -->
+    <section class="start-page parallax-background" id="home">
+      <div class="opacity"></div>
+      <!-- Opacity color -->
+      <div class="content">
+        <div class="text">
+
+          <div class="logo"><img src="img/logo.png"></div>
+          <h1>MOTOBITE</h1>
+          <hr/>
+          <p>Community Carpooling App for your Mobile Device</p>
+          <a href="#get-it">
+            <div class="read-more">Read more</div>
+          </a>
         </div>
-    </div>
+        <div class="arrow-down"></div>
+      </div>
+    </section>
+
+    <!-- section menu mobile -->
+    <section class="menu-media">
+      <div class="menu-content">
+        <div class="logo">MOTOBITE</div>
+        <div class="icon">
+          <a href="#"><img src="img/icons/menu-media.png" /></a>
+        </div>
+      </div>
+    </section>
+
+    <ul class="menu-click">
+      <a href="#home">
+        <li href="#home">HOME</li>
+      </a>
+      <a href="#get-it">
+        <li href="#get-it">GET-IT</li>
+      </a>
+      <a href="#features">
+        <li href="#features">FEATURES</li>
+      </a>
+      <a href="#contact">
+        <li href="#contact">CONTACT</li>
+      </a>
+    </ul>
+
+    <!-- section menu -->
+    <section class="menu">
+      <div class="menu-content">
+        <div class="logo">MOTOBITE</div>
+        <ul id="menu">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#get-it">GET-IT</a></li>
+          <li><a href="#features">FEATURES</a></li>   
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </section>
+    <!-- section about us -->
+    <section class="get-it" id="get-it">
+      <div class="content">
+        <h1>GET IT</h1>
+        <hr/>
+        <p class="title">Motobite is available for all popular mobile platforms, select yours to get it</p>
+
+        <div class="column-one">
+
+          <div class="circle-one"></div>
+
+          <h2>ANDROID</h2>
+          <p>Under internal testing, soon to be available through play store</p>
+
+        </div>
+
+        <div class="column-two">
+
+          <div class="circle-two"></div>
+
+          <h2>iPHONE</h2>
+          <p>Under internal testing, soon to be available through app store</p>
+
+        </div>
+
+
+        <div class="column-three">
+
+          <div class="circle-three"></div>
+
+          <h2>WINDOWS MOBILE</h2>
+          <p>Under development, to be released in near time</p>
+
+        </div>
+      </div>
+      <!--<iframe src="https://docs.google.com/forms/d/1tPvjt_1D8RCGs1OnyJoxM6SfG9G-33dSp-CY8YY_rUc/viewform?embedded=true" style="overflow:hidden;height:100%;width:100%" width="auto" height="auto" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>-->
+    </section>
+    <div class="clear"></div>
+    <!-- partners-->
+    <section class="partners parallax-background-partners" id="partners">
+      <div class="opacity"></div>
+      <div class="content">
+        <h2>Sign Up for Updates</h2>
+        <div class="form">
+        <form action="https://docs.google.com/forms/d/1tPvjt_1D8RCGs1OnyJoxM6SfG9G-33dSp-CY8YY_rUc/formResponse?embedded=true" method="POST"
+        id="ss-form" target="_self" onsubmit="">
+          <ol role="list" class="ss-question-list" style="padding-left: 0">
+            <div class="column">
+            <div class="ss-form-question errorbox-good " role="listitem">
+              <div dir="auto" class="ss-item ss-item-required ss-text">
+                <div class="ss-form-entry">
+                  <label class="ss-q-item-label" for="entry_163258933">
+                    <div class="ss-q-title">Email
+                      <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                      <span class="ss-required-asterisk" aria-hidden="true">*</span></div>
+                  </label>
+                  <input type="email" name="entry.163258933" value="" class="ss-q-short" id="entry_163258933" dir="auto" aria-label="Email Please enter your Email Enter proper Email Address"
+                  aria-required="true" required="" title="Enter proper Email Address">
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="column-2">
+            <div class="ss-form-question errorbox-good" role="listitem">
+              <div dir="auto" class="ss-item ss-item-required ss-checkbox">
+                <div class="ss-form-entry">
+                  <label class="ss-q-item-label" for="entry_2100681747">
+                    <div class="ss-q-title">OS
+                      <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                      <span class="ss-required-asterisk" aria-hidden="true">*</span></div>
+                  </label>
+        
+                  <ul class="ss-choices ss-choices-required" role="group" aria-label="OS What OS platform are you interested in Please select at least one">
+                    <li class="ss-choice-item">
+                      <label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1920600271" value="iOS" id="group_1920600271_2" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
+                        <span class="ss-choice-label">iOS</span>
+                      </label>
+                    </li>
+                    <li class="ss-choice-item">
+                      <label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1920600271" value="Android" id="group_1920600271_1" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
+                        <span class="ss-choice-label">Android</span>
+                      </label>
+                    </li>
+                    <li class="ss-choice-item">
+                      <label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.1920600271" value="WIndows Mobile" id="group_1920600271_3" role="checkbox" class="ss-q-checkbox" aria-required="true"></span>
+                        <span class="ss-choice-label">WIndows Mobile</span>
+                      </label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <input type="hidden" name="draftResponse" value="[,,&quot;928400183986869460&quot;]
+        ">
+            <input type="hidden" name="pageHistory" value="0">
+        
+            <input type="hidden" name="fvv" value="0">
+        
+        
+            <input type="hidden" name="fbzx" value="928400183986869460">
+            </div>
+            <div class="column-3">
+            <div class="ss-item ss-navigate ">
+              <table id="navigation-table">
+                <tbody>
+                  <tr>
+                    <td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+                      <input type="submit" name="submit" value="Submit" id="ss-submit" class="read-more jfk-button jfk-button-action">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            </div>
+          </ol>
+        </form>
+        </div>
+        <div class="signup-text">
+          Please fill out this form so that we send you updates regarding app launch and motivate us
+        </div>
+       </div>
+    </section>  
+     <!-- portoflio-->
+    <section class="features" id="features">
+      <div class="features-margin">
+        <h1>features</h1>
+         <hr/>
+         <a href="#"><div class="read-more">Read more</div></a> 
+        </div>
+      </section>
+      <div class="clear"></div>
+    <!-- Contact-->
+    <section class="contact" id="contact">
+      <h1>Contact</h1>
+      <hr/>  
+      <div class="content">
+        <div class="form">
+          <form method="POST" action="http://formspree.io/contact@motobite.com" name="kontakt">
+          
+            <div class="column">
+            YOUR NAME<br/><br/>
+            <input name="_subject" id="name" value="" required/>
+            </div>
+            
+            <div class="column-2">
+            YOUR E-MAIL<br/><br/>
+            <input type="email" name="_replyto" id="email" value="" required/>
+            </div>
+          
+          
+            <div class="column-3">  
+            MESSAGE<br/><br/>        
+            <textarea id="message" name="body" required></textarea>
+            </div> 
+ 
+              <div class="button">
+                <span><input class="submit" id="submit" name="submit" type="submit" value="SEND"></span>
+              </div>
+ 
+            </form>
+          </div>
+          <div class="contact-text">
+            To contact us please use the contact form visible<br/><br/>
+
+          When sending files, please use<br/>
+          the following e-mail<br/><br/>
+
+          e-mail: <strong>rakesh@motobite.com</strong>
+            </div>
+       </div> 
+    </section>
+    <section class="footer">
+      
+        <div class="logo"><img src="img/logo-footer.png"></div>
+        <div class="menu-footer">
+        
+          <a href="#home">Home</a>
+          <a href="#">Privacy policy</a>
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#contact">Contact</a>
+        
+        </div>
+        
+        <div class="copyright">
+          Background tiles licenced under CC BY-SA 3.0 from <a href="http://designcocktails.com" target="_blank">Radosław Rzepecki</a> & <a href="http://www.webdesigncreare.co.uk/" target="_blank">Kim Ruddock.</a> <br>
+          © 2015. All Rights Reserved Hedera.in
+        </div>        
+    
+    
+    </section>
   </div>
 
-<!-- End Document
+  <!-- Scripts -->
+  <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+  <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+  <script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+  <script src="js/jquery.sticky.js" type="text/javascript"></script>
+  <script src="js/jquery.parallax.js" type="text/javascript"></script>
+  <script src="js/script.js" type="text/javascript"></script>
+  
+  
+  <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+
 </html>
