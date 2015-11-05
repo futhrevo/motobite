@@ -11,7 +11,7 @@
 /* iPad (portrait) */
 @media (min-width: 320px) and (max-width: 579px) {
 
-.menu{
+.menu, .sticky-wrapper, .arrow-down{
   display:none;
 }
 
@@ -75,7 +75,7 @@ h1 {
   padding-bottom:20px;
 }
 
-.contact, .contact .content, .contact .content .form{
+.contact .content, .contact .content .form{
   width:300px;
 }
 
@@ -125,9 +125,6 @@ textarea{
   margin:0 auto;
 }
 
-.footer{
-  position:relative;
-}
 
 }
 
@@ -136,7 +133,7 @@ textarea{
 /* iPad (portrait) */
 @media (min-width: 580px) and (max-width: 767px) {
 
-.menu{
+.menu, .sticky-wrapper{
   display:none;
 }
 
@@ -236,9 +233,6 @@ h1 {
   margin:0 auto;
 }
 
-.footer{
-  position:relative;
-}
 
 input{
   width:420px;
@@ -318,9 +312,7 @@ textarea{
   width:700px
 }
 
-.footer{
-  position:relative;
-}
+
 
 .contact .content .form{
   width:355px;

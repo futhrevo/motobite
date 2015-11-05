@@ -184,7 +184,7 @@ h1 span{
 }
 
 .partners .read-more{
-  margin:50px auto 100px;
+  margin:5px auto 10px;
 }
 
 .start-page .content .arrow-down{
@@ -195,7 +195,6 @@ h1 span{
   width: 21px;
   height: 29px;
   background: url(../img/arrow-down.png) no-repeat center center;
-  display: block;
   -webkit-animation: bounce-fade 1.2s infinite; /* Safari 4+ */
   -moz-animation:    bounce-fade 1.2s infinite; /* Fx 5+ */
   -o-animation:      bounce-fade 1.2s infinite; /* Opera 12+ */
@@ -671,14 +670,7 @@ h1 span{
   position:relative;
   width:100%;
   z-index:10;
-  height:550px;
-  overflow: hidden;
-  /*background:url('../img/background/partners.jpg') 0px 0px fixed;*/
-    /*-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
-  background: url('../img/arches.png');
+  background: #a4a4a4;
 }
 
 .partners .opacity{
@@ -689,15 +681,11 @@ h1 span{
 }
 
 .partners .content{
-  position:absolute;
+  position:relative;
   width:900px;
-  height:400px;
-  margin:auto;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
+  margin:0 auto;
   color: white;
+  overflow: hidden;
 }
 
 .partners h2{
@@ -708,6 +696,7 @@ h1 span{
   text-align:center;
   padding-bottom: 10px;
   padding-top: 10px;
+  margin-top: 50px;
 }
 
 .partners .logo{
@@ -731,6 +720,10 @@ h1 span{
   opacity:1;
 }
 
+.partners .content .form{
+  overflow: hidden;
+  height: auto;
+}
 /* Contact */
 
 .contact{
@@ -738,8 +731,8 @@ h1 span{
   width:100%;
   background:white;
   z-index:10;
-  overflow:hidden;
-  margin-bottom: 300px;  
+  /*overflow:hidden;
+  margin-bottom: 300px;  */
 }
 
 
@@ -771,7 +764,7 @@ h1 span{
   border:0;
 }
 
-.contact .content .form, .partners .content .form{
+.contact .content .form{
   width:455px;
   overflow:hidden;
   height:auto;
@@ -816,10 +809,15 @@ h1 span{
   font-size:14px;
   line-height:26px;
 }
-
+.partners .content .signup-text{
+  text-align: center;
+  width:100%;
+  padding-left: 0px;
+  margin: 0px 0px 50px 0px;
+}
 strong{
   font-weight:700;
-
+  width: 300px;
 }
 
 input{
@@ -889,8 +887,8 @@ input.submit{
 
 
 .footer{
-  position:fixed;
-  bottom:0;
+  position:relative;
+  /*bottom:0;*/
   width:100%;
   background:#3c3c3c;
 }
@@ -901,7 +899,7 @@ input.submit{
   width:58px;
   height:58px;
   margin: 0 auto;
-  padding-top:50px;
+  padding-top:25px;
 
 }
 

@@ -6,15 +6,11 @@ $(window).load(function () {
     $(".parallax-background").parallax();
   }
   
-  // Parallax
-  if ($('.parallax-background-partners').length) {
-    $(".parallax-background-partners").parallax();
-  }
   // niceScroll
   $("html").niceScroll();
 
   // Stick menu
-  $(".menu").sticky({ topSpacing: 0 });
+  $(".menu").sticky({ topSpacing: 0 , responsiveWidth: true});
 
   // Menu Scroll to content and Active menu
   var lastId,
@@ -52,8 +48,6 @@ $(window).load(function () {
 
   if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 
-    $(".footer").css("position", "relative");
-    $(".contact").css("marginBottom", "0");
 
   }
   else {
