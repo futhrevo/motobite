@@ -887,11 +887,17 @@ input.submit{
 /* Footer */
 
 
-.footer{
+.footer, .footer a{
   position:relative;
+  line-height: 1.6;
   /*bottom:0;*/
   width:100%;
   background:#3c3c3c;
+  text-align: center;
+}
+.footer .ul{
+  list-style: disc;
+  padding: 0;
 }
 
 .footer .logo{
@@ -901,41 +907,23 @@ input.submit{
   height:58px;
   margin: 0 auto;
   padding-top:25px;
-
+  padding-bottom: 10px;
 }
 
-.footer .menu-footer{
-  width:80%;
-  text-align:center;
-  margin:0 auto;
-  padding-top:30px;
-  overflow: hidden;
-  position:relative;  
+.footer .social-icons li{
+    width: 40px;
+    height: 40px;
+    transition: background-color ease .2s;
+    display: inline-block;
+    margin: 0 .5em;
 }
-
-
-.footer .menu-footer a{
-  line-height:46px;
-  padding:10px;
-  color:#a4a4a4;
-  -webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
-}
-
-.footer .menu-footer a:hover{
-  color:#009688;
-}
-
 
 .footer .copyright{
   width:80%;
   position:relative;
   font-weight:300;
   margin:0 auto;
-  padding:30px 0 50px;
+  padding:30px 0 30px;
   text-align:center;
   font-size:14px;
   line-height:36px;
