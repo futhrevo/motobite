@@ -347,21 +347,21 @@ h1 span{
 
 /* About us */
 
-.get-it{
+.get-it, .privacy, .terms{
   position:relative;
   width:100%;
   background:white;
   z-index:10;
 }
 
-.get-it .content{
+.get-it .content, .privacy .content, .terms .content{
   position:relative;
   width:900px;
   margin: 0 auto;
   overflow: hidden;
 }
 
-.get-it h1{
+.get-it h1, .privacy h1, .terms h1{
   font-size:34px;
   color:black;
   text-align:center;
@@ -936,4 +936,18 @@ input.submit{
 
 table{
   margin: 0 auto;
+}
+
+.license ol {
+  padding-left: 30px;
+  padding-right: 5px;
+  list-style: decimal;
+}
+
+.license ol li ol {
+  list-style: lower-alpha;
+}
+
+.license ol li ol li ol {
+  list-style: lower-roman;
 }

@@ -21,7 +21,7 @@ $(window).load(function () {
       var item = $($(this).attr("href"));
       if (item.length) { return item; }
     });
-  $('a[href*=#]').bind('click', function (e) {
+  $('a[href^="#"]').bind('click', function (e) {
     e.preventDefault();
     var target = $(this).attr("href");
     $('html, body').stop().animate({ scrollTop: $(target).offset().top - 140 }, 1000, function () { });
